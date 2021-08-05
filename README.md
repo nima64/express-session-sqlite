@@ -39,7 +39,7 @@ app.use(session({
       // path: ':memory:'
       path: '/tmp/sqlite.db',
       // Session TTL in milliseconds
-      ttl: 1234,
+      ttl: 300000,
       // (optional) Session id prefix. Default is no prefix.
       prefix: 'sess:',
       // (optional) Adjusts the cleanup timer in milliseconds for deleting expired session rows.
